@@ -1,0 +1,13 @@
+ticket_id,customer_id,created_date,severity,status,resolution_hours,category
+TCK-10001,1001,2026-01-08,High,Closed,4,Billing
+TCK-10002,1002,2026-01-10,Medium,Closed,8,Usage
+TCK-10003,1003,2026-01-12,Critical,Closed,2,Service Outage
+TCK-10004,1004,2026-01-14,Low,Closed,12,Account
+TCK-10005,1005,2026-01-18,High,Closed,5,Network Performance
+TCK-10006,1006,2026-01-21,Medium,Closed,9,Plan Change
+TCK-10007,1007,2026-02-02,Critical,Closed,3,Service Outage
+TCK-10008,1008,2026-02-04,Low,Open,,General Question
+TCK-10009,1001,2026-02-06,Medium,Closed,7,Usage
+TCK-10010,1003,2026-02-09,High,Open,,Billing
+TCK-10011,1005,2026-02-13,Medium,Closed,6,Network Performance
+TCK-10012,1007,2026-02-15,Critical,Closed,2,Service Outage
