@@ -6,11 +6,6 @@ Key files:
 
 requirements.txt
 ----------------
-streamlit==1.37.1
-pandas==2.2.2
-plotly==5.23.0
-snowflake-connector-python==3.12.2
-snowflake-snowpark-python==1.22.1
 
 Sample customers.csv
 --------------------
@@ -32,16 +27,19 @@ Snowflake setup:
 - Views: VW_MONTHLY_REVENUE, VW_CUSTOMER_REVENUE, VW_USAGE_SUMMARY, VW_SUPPORT_METRICS, VW_EXECUTIVE_KPIS
 
 Run locally:
+```python
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run streamlit_app/app.py
+```
 
 
 Deploy AWS:
+```bash
 cd terraform
 terraform init
 terraform apply
-
+```
 Run Snowflake mode:
 APP_MODE=snowflake streamlit run streamlit_app/app.py
